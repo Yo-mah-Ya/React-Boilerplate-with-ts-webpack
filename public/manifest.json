@@ -1,0 +1,17 @@
+{
+  "name": "Next.js_template",
+  "short_name": "Next.js_template",
+  "description": "This repository is about the CSR, SSR, SSG and ISR with Next.js",
+  "dir": "auto",
+  "lang": "en",
+  "display": "standalone",
+  "orientation": "portrait",
+  "scope": "/",
+  "icons": [
+    {
+      "src": "/assets/app-icon.png",
+      "sizes": "144x144",
+      "type": "image/png"
+    }
+  ]
+}

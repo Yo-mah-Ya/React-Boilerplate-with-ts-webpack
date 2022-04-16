@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/"
+    xmlns:moz="http://www.mozilla.org/2006/browser/search/">
+    <AdultContent>false</AdultContent>
+    <Description>Next.js_template</Description>
+    <!-- <Image width="16" height="16" type="image/x-icon">https://example.com/favicon.ico</Image> -->
+    <InputEncoding>UTF-8</InputEncoding>
+    <OutputEncoding>UTF-8</OutputEncoding>
+    <SearchForm>https://example.com/search</SearchForm>
+    <ShortName>Next.js_template</ShortName>
+    <Url type="text/html" method="GET" template="https://example.com/search?query={searchTerms}"/>
+    <Url type="application/opensearchdescription+xml" rel="self" method="GET" template="https://example.com/opensearch.xml"/>
+    <moz:SearchForm>https://example.com/search/</moz:SearchForm>
+</OpenSearchDescription>

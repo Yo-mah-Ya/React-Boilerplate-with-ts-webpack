@@ -1,0 +1,8 @@
+amplify
+babel.config.js
+.eslintrc.js
+jest.config.js
+src/components/polyfill.js
+webpack/**/*.js
+webpack.*.js
+.stylelintrc.js

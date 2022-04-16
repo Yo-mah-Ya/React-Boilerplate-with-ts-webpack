@@ -1,0 +1,18 @@
+openapi: 3.0.1
+info:
+  title: api_gateway
+  version: "2020-08-27"
+paths:
+  /api:
+    get:
+      responses:
+        200:
+          description: 200 response
+          content: {}
+      x-amazon-apigateway-integration:
+        uri:
+          Fn::Sub: arn:aws:apigateway:${AWS::Region}:lambda:path/2015-03-31/functions/${TargetLambdaFunction.Arn}/invocations
+        passthroughBehavior: when_no_match
+        httpMethod: POST
+        type: aws_proxy
+components: {}

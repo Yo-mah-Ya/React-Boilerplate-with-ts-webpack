@@ -1,0 +1,20 @@
+{
+  "extends": [
+    "stylelint-config-standard-scss",
+    "stylelint-config-recess-order",
+    "stylelint-config-prettier"
+  ],
+  "rules": {
+    "max-line-length": [
+      120,
+      {
+        "ignore": ["comments"],
+        "ignorePattern": ["/^.*https?://.*$/"]
+      }
+    ],
+    "selector-pseudo-class-no-unknown": true,
+    "declaration-no-important": true,
+    "indentation": 4
+  },
+  "ignoreFiles": ["**/node_modules/**"]
+}
